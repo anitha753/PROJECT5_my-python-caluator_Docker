@@ -1,5 +1,6 @@
 MULTI STAGE DOCKERFILE
-=============================================================
+By using the multi-stage Dockerfile we are reducing the image size
+====================================================================
 #STAGE 1 Build the application
 #Base image
 FROM ubuntu:20.04 As builder
